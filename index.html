@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Guessing Game</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Guessing Game</h1>
+    <button class="start-button">Start</button>
+  </header>
+  <main>
+    <div class="container">
+      <!-- Score Count -->
+      <aside id="score-count-aside">
+        <section class="score-count-container">
+          <h3>Wins: <span class="win-count">0</span></h3>
+          <h3>Losses: <span class="loss-count">0</span></h3>
+          <button class="reset-button">Reset Score</button>
+        </section>
+        <section class="timer-container">
+          <h1><span class="timer">10</span></h1>
+          <h2>seconds remaining</h2>
+        </section>
+      </aside>
+      <!-- Guessing Section -->
+      <section id="guessing-section">
+        <h1><span class="word-in-play">WORD</span></h1>
+      </section>
+    </div>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
