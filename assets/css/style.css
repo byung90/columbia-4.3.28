@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header{
+  background-color: navy;
+  text-align: center;
+  padding: 15px;
+}
+
+header h1{
+  color: white;
+  font-size: 2em;
+}
+
+button {
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+header button {
+  font-size: 30px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.score-count-aside {
+  width: 20%;
+  float: right;
+  padding: 50px;
+}
+
+.score-count-container {
+  background-color: pink;
+  padding: 0 10px;
+}
+
+.score-count-box {
+  width: 100%;
+  position: relative;
+  padding: 40px 0;
+  height: 100px;
+}
+
+.score-count-box button{
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+
+.timer-container {
+  text-align: center;
+  height: 200px;
+}
+
+.timer {
+  font-size:  36px;
+}
+
+.guessing-section {
+  width: 80%;
+  padding: 50px;
+}
+
+.guessing-container {
+  background-color: orange;
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

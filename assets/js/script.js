@@ -30,7 +30,7 @@ function startGame() {
       wordInPlay[i] = "_";
     }
   }
-  wordInPlaySpan.innerHTML = wordInPlay.join("").toUpperCase();
+  wordInPlaySpan.innerHTML = wordInPlay.join(" ").toUpperCase();
 }
 
 //Checking if Entered Key Matches
@@ -46,7 +46,7 @@ function checkKey(event) {
         indexOfKey++;
       }
     }
-    wordInPlaySpan.innerHTML = wordInPlay.join("").toUpperCase();
+    wordInPlaySpan.innerHTML = wordInPlay.join(" ").toUpperCase();
   }
 
   if (checkWin()) {
@@ -60,7 +60,7 @@ function checkWin() {
     return false;
   }
   else {
-    return true
+    return true;
   }
 }
 
